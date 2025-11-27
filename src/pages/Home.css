@@ -20,7 +20,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(248, 249, 250, 0.7) 100%);
   z-index: 1;
 }
 
@@ -110,7 +110,8 @@
 /* Stats Section */
 .stats {
   padding: 5rem 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
 }
 
 .stats-container {
@@ -143,7 +144,8 @@
 /* Services Section */
 .services {
   padding: 6rem 2rem;
-  background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+  background: rgba(248, 249, 250, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .services-container {
@@ -180,12 +182,13 @@
 }
 
 .service-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   padding: 2.5rem;
   border-radius: 8px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
   cursor: pointer;
+  backdrop-filter: blur(10px);
 }
 
 .service-card:hover {
@@ -250,9 +253,10 @@
 /* CTA Section */
 .cta {
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0.95) 0%, rgba(52, 73, 94, 0.95) 100%);
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(10px);
 }
 
 .cta::before {

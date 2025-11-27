@@ -59,7 +59,8 @@
 /* Services Details */
 .services-details {
   padding: 6rem 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .services-details-container {

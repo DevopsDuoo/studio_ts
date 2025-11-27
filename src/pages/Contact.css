@@ -4,7 +4,8 @@
 
 .contact-content {
   padding: 6rem 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .contact-container {
@@ -88,10 +89,11 @@
 
 /* Contact Form */
 .contact-form-wrapper {
-  background: #f8f9fa;
+  background: rgba(248, 249, 250, 0.95);
   padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 .contact-form {

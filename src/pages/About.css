@@ -11,7 +11,8 @@
 /* Story Section */
 .about-story {
   padding: 6rem 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
 }
 
 .story-content {
@@ -34,7 +35,8 @@
 /* Values Section */
 .about-values {
   padding: 6rem 2rem;
-  background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+  background: rgba(248, 249, 250, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .about-values .section-title {
@@ -51,10 +53,11 @@
 .value-card {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
 }
 
 .value-card:hover {
@@ -93,7 +96,8 @@
 /* Team Section */
 .about-team {
   padding: 6rem 2rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
 }
 
 .about-team .section-title {
