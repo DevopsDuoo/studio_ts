@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <span className="logo-text">ARCHITECT</span>
-              <span className="logo-studio">STUDIO</span>
+              <span className="logo-main">T | S</span>
+              <span className="logo-tagline">THE STUDIO</span>
             </div>
             <p className="footer-description">
               Transforming visions into architectural masterpieces. We design spaces that inspire and endure.

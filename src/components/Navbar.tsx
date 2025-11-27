@@ -26,8 +26,8 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <span className="logo-text">ARCHITECT</span>
-          <span className="logo-studio">STUDIO</span>
+          <span className="logo-main">T | S</span>
+          <span className="logo-tagline">THE STUDIO</span>
         </Link>
 
         <div className="menu-icon" onClick={toggleMenu}>
