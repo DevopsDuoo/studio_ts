@@ -1,0 +1,37 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background subtle accent -->
+  <rect x="0" y="0" width="200" height="60" fill="transparent"/>
+  
+  <!-- Studio Text -->
+  <text x="10" y="35" font-family="Montserrat, sans-serif" font-size="24" font-weight="600" fill="#2c3e50" letter-spacing="2">
+    Studio
+  </text>
+  
+  <!-- T|S with architectural element -->
+  <g transform="translate(110, 15)">
+    <!-- Architectural line accent -->
+    <line x1="0" y1="25" x2="70" y2="25" stroke="#c9a961" stroke-width="1" opacity="0.4"/>
+    
+    <!-- T -->
+    <text x="0" y="20" font-family="Playfair Display, serif" font-size="28" font-weight="700" fill="#2c3e50" letter-spacing="1">
+      T
+    </text>
+    
+    <!-- Divider with golden accent -->
+    <line x1="23" y1="2" x2="23" y2="23" stroke="#c9a961" stroke-width="2.5"/>
+    
+    <!-- S -->
+    <text x="30" y="20" font-family="Playfair Display, serif" font-size="28" font-weight="700" fill="#2c3e50" letter-spacing="1">
+      S
+    </text>
+    
+    <!-- Architectural corner detail -->
+    <path d="M 55 0 L 70 0 L 70 8" stroke="#c9a961" stroke-width="1.5" fill="none"/>
+    <path d="M 55 25 L 70 25 L 70 17" stroke="#c9a961" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="12" y="48" font-family="Montserrat, sans-serif" font-size="8" font-weight="400" fill="#c9a961" letter-spacing="3">
+    ARCHITECTURAL STUDIO
+  </text>
+</svg>

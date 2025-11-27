@@ -27,27 +27,18 @@
 .footer-logo {
   display: flex;
   flex-direction: column;
-  line-height: 1;
-  margin-bottom: 0.5rem;
-  gap: 2px;
+  margin-bottom: 1rem;
 }
 
-.footer-logo .logo-main {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #ecf0f1;
-  letter-spacing: 8px;
+.footer-logo-image {
+  height: 50px;
+  width: auto;
+  filter: brightness(1.2);
+  transition: transform 0.3s ease;
 }
 
-.footer-logo .logo-tagline {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: #c9a961;
-  letter-spacing: 5px;
-  margin-top: -3px;
-  text-align: center;
+.footer-logo-image:hover {
+  transform: translateY(-2px);
 }
 
 .footer-description {

@@ -1,0 +1,17 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal icon version for favicon -->
+  <rect width="50" height="50" fill="#2c3e50" rx="8"/>
+  
+  <!-- T -->
+  <text x="8" y="32" font-family="Playfair Display, serif" font-size="22" font-weight="700" fill="white">
+    T
+  </text>
+  
+  <!-- Divider -->
+  <line x1="25" y1="15" x2="25" y2="35" stroke="#c9a961" stroke-width="2"/>
+  
+  <!-- S -->
+  <text x="30" y="32" font-family="Playfair Display, serif" font-size="22" font-weight="700" fill="white">
+    S
+  </text>
+</svg>
